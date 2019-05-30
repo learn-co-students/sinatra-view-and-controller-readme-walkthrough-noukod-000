@@ -12,7 +12,7 @@
     <!-- Iterate through the @friends array here to display each item in its own <h2> tag -->
         <% @friends.map do |friend| %>
           <h2><%= friend %></h2>
-        <% end %>
+        <% end.first %>
   
   </body>
 </html>
